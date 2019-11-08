@@ -1,0 +1,6 @@
+.alert {
+  position: fixed !important;
+  top: 75px;
+  min-width: 400px !important;
+  transform: translateX(calc(50vw - 200px));
+}

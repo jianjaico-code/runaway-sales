@@ -1,0 +1,10 @@
+node_modules
+.vscode
+vendor
+test.php
+seeder.js
+fix*.html
+divide.js
+datatable.addchild.js
+products.html
+customer.json

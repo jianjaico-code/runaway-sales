@@ -1,0 +1,9 @@
+@media screen and (max-width: 320px) {
+  .breadcrumb {
+    display: none !important;
+  }
+
+  #content-wrapper > .container  > h1 {
+    font-size: 150% !important;   
+  }
+}

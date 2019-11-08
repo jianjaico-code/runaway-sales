@@ -1,0 +1,49 @@
+{
+	"Order": [
+    {
+      "OrderId": 12345,
+      "CustomerId": 23456,
+      "EmployeeId?": 34567,
+      "OrderDate": "11/11/18",
+      "Amount": 999.75,
+      "OrderDetails": [
+        {
+          "OrderId": 12345,
+          "OrderQuantity": 3,
+          "ProductId": 54321
+        },
+        {
+          "OrderId": 12345,
+          "OrderQuantity": 3,
+          "ProductId": 54322
+        }
+      ]
+    }
+  ],
+  "CustomerDelivery": {
+    "DeliveryId": 12341,
+    "CustomerPayment": 1699.99,
+    "CustomerId": 23456,
+    "CustomerDeliveryDetails": [
+      {
+        "DeliveryId":12341,
+        "OrderId": 12345,
+        "ProductId":54321,
+        "DeliveryQuantity": 3,
+        "DeliveryDate": "11/12/18",
+        "DeliveryStatus": "Delivered",
+        "PlateNo": "ZXC 12345"
+      },
+      {
+        "DeliveryId": 12341,
+        "OrderId": 12345,
+        "ProductId": 54322,
+        "DeliveryQuantity": 2,
+        "DeliveryDate": "11/12/18",
+        "DeliveryStatus": "Partial?",
+        "PlateNo": "ZXC 12345"
+      }
+    ]
+  }
+}
+
